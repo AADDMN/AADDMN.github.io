@@ -1,4 +1,18 @@
+:root {
+	--back-color: #076ae1;
+	--fore-color: White;
+}
+
 body {
 	text-align: center;
 	font-family: Tahoma, sans-serif;
+	background-color: var(--back-color);
+}
+
+div {
+	background-color: var(--fore-color);
+	margin: auto;
+	border-radius: 5px;
+	width: 98%;
+	height: 98%;
 }
