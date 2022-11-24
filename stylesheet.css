@@ -13,6 +13,10 @@ div {
 	background-color: var(--fore-color);
 	margin: auto;
 	border-radius: 5px;
-	width: 98%;
-	height: 98%;
+	width: 99%;
+	height: 99%;
+}
+
+a {
+	color: Black;
 }
