@@ -1,3 +1,8 @@
+:root {
+	--back-color: #076ae1;
+	--fore-color: White;
+}
+
 body {
 	height: 100%;
     background: linear-gradient(80deg, #076ae1 25%, #FFFFFF 0%);
