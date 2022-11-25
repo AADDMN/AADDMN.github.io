@@ -1,11 +1,12 @@
+/* defines colours used throughout the stylesheet*/
 :root {
-	--back-color: #076ae1;
-	--fore-color: White;
+	--back-color: white;
+	--fore-color: #076ae1;
 }
 
 body {
 	height: 100%;
-    background: linear-gradient(80deg, #076ae1 25%, #FFFFFF 0%);
+	background: linear-gradient(80deg, var(--fore-color) 25%, var(--back-color) 0%);
 }
 
 h1 {
