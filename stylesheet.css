@@ -10,6 +10,7 @@
 	.logobar {
 		position: fixed;
 		bottom: 0;
+		pointer-events: none;
 		right: 0;
 		width: 100%;	
 		height: 100%;
