@@ -75,3 +75,9 @@ a:hover, a:active {
 	font-family: Tahoma, sans-serif;
 	color: #076ae1;
 }
+
+.grid-container {
+	display: inline-grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(3, 1fr);
+}
