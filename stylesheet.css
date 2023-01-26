@@ -57,7 +57,6 @@ h2 {
 
 a {
 	font-family: Tahoma, sans-serif;
-	text-decoration: none;
 }
 
 /* unvisited link */
@@ -70,6 +69,14 @@ a:hover, a:active {
   color: #0728e1;
 }
 
+.text-with-border {
+	padding: 7px;
+	border-width: 2px; 
+	border-style: solid;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
 .text {
 	text-align: center;
 	font-family: Tahoma, sans-serif;
@@ -78,6 +85,7 @@ a:hover, a:active {
 
 .grid-container {
 	display: inline-grid;
-	grid-gap: 5px;
 	grid-template-columns: repeat(3, 1fr);
+	row-gap: 20px;
+	column-gap: 5px;
 }
