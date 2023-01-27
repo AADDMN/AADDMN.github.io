@@ -28,6 +28,12 @@
 	.text {
 		padding-left: 30vh;
 	}
+
+	.grid-container {
+		display: inline-grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 75px;
+	}
 }
 
 /* Displays only on small screens */
@@ -53,6 +59,16 @@ h1 {
 
 h2 {
 	padding-top: 8vh;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	padding: 2px;
 }
 
 a {
@@ -81,11 +97,4 @@ a:hover, a:active {
 	text-align: center;
 	font-family: Tahoma, sans-serif;
 	color: #076ae1;
-}
-
-.grid-container {
-	display: inline-grid;
-	grid-template-columns: repeat(3, 1fr);
-	row-gap: 20px;
-	column-gap: 5px;
 }
